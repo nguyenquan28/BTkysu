@@ -2,15 +2,14 @@
 	margin: 0 auto;
 	width: 85%;
 	height: auto;
+	background: white;
 }
 .khung .tuan{
 
 }
 .khung .viet{
-
 	width: 100%;
 	height: auto;
-	
 }
 
 
@@ -19,7 +18,6 @@
 	width: 32%;
 	height: 200px;	
 	margin-bottom: 15px;
-	background: yellow;
 }
 .viet1 .diff{
 	margin-right: 2%;
@@ -36,26 +34,24 @@
 }
 .vietchu h3{
 	text-transform: uppercase;
-	
 	margin-top: 10px;
 }
 .vietchu p{
 	font-size: 20px;
 	margin-right: 20px;
-	
 	line-height: 20px;
 }
 .vietchu .vlink{
 	width: 100px;
-	height: 40px;
-
+	height: 60px;
 }
 .vlink a{
 	text-align: center;
 	font-size: 15px;
 	line-height: 40px;	
 	text-decoration: none;
-	color: #F9F400;
+	color: yellow;
+	text-transform: uppercase;
 }
 .vlink a:hover{
 	color: red;
@@ -72,6 +68,7 @@
 
 }
 .khung .quan{
+	float: left;
 	width: 100%;
 	height: 400px;
 	background: pink;
