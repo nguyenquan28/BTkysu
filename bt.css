@@ -3,8 +3,111 @@
 	height: auto;
 }
 .khung .tuan{
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	background: white;
+}.menu .tlogo{
+	float: left;
+	width: 30%;
+	height: 100%;
+	
+}
+.menu .tmenu{
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+.tlogo h3{
+	color: #ffa31a;
+	font-size: 28px;
+	padding-top: 10px;
+	margin-left: 80px;
+	text-transform: uppercase;
+}
+.tmenu ul{
+	float: right;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 
 }
+.tmenu li {
+	float: left;
+	width: 13%;
+	height: 100%;
+	margin-left: 5px;
+	margin-top: 30px;
+	padding-top: 10px;
+	text-align: center;
+}
+.tmenu li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 5px;
+}
+.tmenu li a:hover{
+	color: #ffa31a;
+}
+.tkhung {
+	float: left;
+	background: url(http://polyco.com.vn/res/2016/07/C%C6%A1-kh%C3%AD-ch%E1%BA%BF-t%E1%BA%A1o-m%C3%A1y.jpg);
+	background-repeat: none;
+	background-size: 100%;
+	  opacity: 0.9;
+   
+	width: 100%;
+	height: 450px;
+}
+
+.tkhung h3{
+	display: block;
+	width: 40%;
+	height: 80px;
+	line-height: 80px;
+	font-size: 60px;
+	color: white;
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 5px;
+	margin-left: 70px;	
+}
+.tkhung p{
+	display: block;
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	margin-top: 70px;
+	padding-top: 30px;
+	width: 60%;
+	height: 80px;
+	margin-left: 70px;
+}
+.tkhung  a{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	font-size: 16px;
+	display: block;
+	width: 150px;
+	height: 40px;
+	margin-left: 70px;
+	border-radius: 10px;
+	background: #ffa31a;;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: bold;	
+}
+.tkhung a:hover{
+	color: green;
+	
+}
+
 .khung .viet{
 
 }
