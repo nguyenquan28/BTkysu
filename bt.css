@@ -1,4 +1,5 @@
 .khung{
+	margin: 0 auto;
 	width: 85%;
 	height: auto;
 }
@@ -6,6 +7,59 @@
 
 }
 .khung .viet{
+
+	width: 100%;
+	height: auto;
+	
+}
+
+
+.viet1 .vietanh{
+	float: left;
+	width: 32%;
+	height: 200px;	
+	margin-bottom: 15px;
+	background: yellow;
+}
+.viet1 .diff{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.viet1 .vietchu{
+	float: left;
+	width: 32%;
+	height: auto;	
+}
+.viet1 .diss{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.vietchu h3{
+	text-transform: uppercase;
+	
+	margin-top: 10px;
+}
+.vietchu p{
+	font-size: 20px;
+	margin-right: 20px;
+	
+	line-height: 20px;
+}
+.vietchu .vlink{
+	width: 100px;
+	height: 40px;
+
+}
+.vlink a{
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;	
+	text-decoration: none;
+	color: #F9F400;
+}
+.vlink a:hover{
+	color: red;
+}
 
 }
 .khung .hien{
