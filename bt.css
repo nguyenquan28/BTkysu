@@ -1,12 +1,65 @@
 .khung{
+	margin: 0 auto;
 	width: 85%;
 	height: auto;
+<<<<<<< HEAD
 	margin: 0 auto;
+=======
+	background: white;
+>>>>>>> master
 }
 .khung .tuan{
 
 }
 .khung .viet{
+	width: 100%;
+	height: auto;
+}
+
+
+.viet1 .vietanh{
+	float: left;
+	width: 32%;
+	height: 200px;	
+	margin-bottom: 15px;
+}
+.viet1 .diff{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.viet1 .vietchu{
+	float: left;
+	width: 32%;
+	height: auto;	
+}
+.viet1 .diss{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.vietchu h3{
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.vietchu p{
+	font-size: 20px;
+	margin-right: 20px;
+	line-height: 20px;
+}
+.vietchu .vlink{
+	width: 100px;
+	height: 60px;
+}
+.vlink a{
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;	
+	text-decoration: none;
+	color: yellow;
+	text-transform: uppercase;
+}
+.vlink a:hover{
+	color: red;
+}
 
 }
 .khung .hien{
@@ -66,6 +119,72 @@
 .khung .dang{
 
 }
-.dang .quan{
-	
+.khung .quan{
+	float: left;
+	width: 100%;
+	height: 400px;
+	background: pink;
+}
+.quan .qimg{
+	float: left;
+	width: 48%;
+	height: 100%;
+	margin-right: 2%;
+}
+.quan .qchu{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.qimg img{
+	width: 100%;
+	height: 100%;
+}
+.qchu h2{
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.qchu h6{
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	color: grey;
+}
+.qchu p.p1{
+	margin: 0;
+	margin-left: 50px;
+	text-align: left;
+	color: grey;
+	font-size: 18px;
+}
+.qchu p.p2{
+	padding: 50px;
+	font-size: 18px;
+	text-align: left;
+	color: grey;
+}
+.qchu a{
+	float: left;
+	text-decoration: none;
+	display: block;
+	width: 30%;
+	height: 50px;
+	background: grey;
+	color: white;
+	text-align: center;
+	margin: 0;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 10px;
+	line-height: 50px;
+}
+.qchu a.trc{
+	background: yellow;
+}
+.qchu a:hover{
+	color: red;
+	background: yellow;
 }
